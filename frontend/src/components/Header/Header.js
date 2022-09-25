@@ -1,39 +1,10 @@
-import {
-  Navbar,
-  Container,
-  Nav,
-  NavDropdown,
-  Offcanvas,
-  Form,
-  FormControl,
-  Button
-} from 'react-bootstrap';
-import React, { useState } from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Header.css';
 
 const Header = () => {
   return (
-    /*
-    <header>
-      <div className="headerLeft">
-        <div className="headerLeft__logo">ContractEmploy.com</div>
-        <div className="headerLeft__bottomLogo">
-          {'(Product Of DharmaWorks (India) Pvt.Ltd.)'}
-        </div>
-      </div>
-      <div className="headerRight">
-        <div className="headerRight__loginForm">
-          <form>
-            <input type="text" name="email" placeholder="Email Address" />
-            <input type="password" name="password" placeholder="Password" />
-            <input type="submit" value="Submit" />
-          </form>
-        </div>
-        <div className="headerRight__modeShift">Go To Employer Sign In</div>
-      </div>
-    </header>
-    */
     <Navbar
       collapseOnSelect
       expand="lg"
